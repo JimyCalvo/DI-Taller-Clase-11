@@ -1,0 +1,147 @@
+
+body{
+    background-image: url(./images/pattern-background-desktop.svg);
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.caja_principal{
+    width: 450px;
+    background-color: aliceblue;
+    border-radius: 10%;
+    box-shadow: 1px 1px 10px 1px rgba(32,32,32,0.3);
+    
+}
+.caja_principal>img{
+    width: fit-content;
+    border-radius: 30px 30px 0px 0px;
+    
+}
+.caja_secundaria{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 20px;
+    margin: 40px;
+    
+}
+p{
+    margin-left: 60px;
+    line-height: 20px;
+    margin-right: 60px;
+    border-left: 50px;
+    border-right: 50px;
+    font-size: 14px;
+}
+.caja_plan{
+    position: relative;
+    width: 80%;
+    height: 50px;
+    background-color:  #f0f1f3;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.caja_plan:hover{
+    background-color:  #e4ecf4;
+}
+
+.caja_plan>img{
+    height: fit-content;
+    width: 50px;
+    
+
+}
+.caja_plan2{
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    padding: 0%;
+    border: 0px;
+
+}
+.caja_plan2>h3{
+    font-size: 16px;
+    margin: 0%;
+    margin-bottom: 10px;
+    padding: 0%;
+    border: 0px;
+}
+.caja_plan2>h5{
+    font-size: 12px;
+    margin: 0%;
+    padding: 0%;
+    border: 0px;
+}
+.caja_botones{
+    display:flex;
+    flex-direction: column;
+    padding: 30px;
+    
+}
+.caja_plan>a{
+    font-size: 14px;
+}
+
+.Proceed{
+    height: 40px;
+    width: 95%;
+    border:#3132ad;
+    background-color: #2b2baf;
+    color: aliceblue;
+    font-size: 14px;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+.Proceed:hover{
+    height: 42px;
+    width: 96%;
+    border:#5a5aee;
+    background-color: #5a5aee;
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+.cancelar{
+    background-color: aliceblue;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+}
+.cancelar:hover{
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+    color:#2b2baf;
+    font-weight: bold;
+    border: none;
+}
